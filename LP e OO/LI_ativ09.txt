@@ -1,0 +1,15 @@
+Um aluno do ensino fundamental precisa fazer como tarefa de casa a tabuada de alguns números inteiros, como nos exemplos em anexo.
+
+Para ajudar esse aluno, você deve elaborar um algoritmo que solicite que seja digitado um número inteiro e que no final imprima o resultado da tabuada desse número.
+
+algoritmo "Tabuada"
+var
+    numero, resultado, contador: inteiro
+inicio
+    escreval("Insira um número inteiro: ")
+    leia(numero)
+    para contador de 1 ate 10 faca
+        resultado <- numero * contador
+        escreval(numero, " x ", contador, " = ", resultado)
+    fimpara
+fimalgoritmo
