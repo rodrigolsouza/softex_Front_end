@@ -6,6 +6,8 @@
 
 Caso seja inserido um número de operação que não exista, o resultado deverá ser 0.'''
 
+'''OBS: CODIGO FEITO EM PYTHON'''
+
 def exibir_menu():
     print("\n")
     print("---------MENU-----------")
