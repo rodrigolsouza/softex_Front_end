@@ -1,5 +1,7 @@
-var tempo=console.log(prompt("Informa o tempo inicial(positivo) do contador regressivo: "));
+var tempo=(prompt("Informa o tempo inicial(positivo) do contador regressivo: "));
 parseInt(tempo);
+
+console.log(typeof(tempo));
 
 function mensagem(tempoI){
     console.log(`${tempoI}`)
